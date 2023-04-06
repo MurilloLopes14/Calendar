@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  background-color: azure;
+}
+
+.calendar {
+  padding: 20px 40px;
+}
+
+.calendar .calendar-header {
+  border-width: 0;
+}
+.calendar .calendar-header table th:hover {
+  background: transparent;
+}
+.calendar .calendar-header .year-title {
+  font-size: 4em;
+  color: #9b4642;
+}
+.calendar .calendar-header .year-title:hover {
+  background: none;
+}
+.calendar .calendar-header .year-neighbor2 {
+  font-size: 2.5rem;
+}
+
+.months-container {
+  gap: 1rem;
+  justify-content: center;
+}
+.months-container .month-container {
+  background-color: white;
+  padding: 20px;
+  min-width: 300px;
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.months-container .month-container .month-title {
+  color: #373737;
+  font-size: 2rem;
+  font-weight: 200;
+}
+.months-container .month .day:first-child, .months-container .month .day:last-child {
+  color: #9b4642;
+}
+.months-container .month .day .day-content {
+  padding: 6px 8px;
+  color: #373737;
+}
+.months-container .month .day .day-content:hover {
+  background-color: #9b4642;
+  color: white;
+}
+.months-container .month .day-header {
+  color: #373737;
+}
+.months-container .month .day-header:first-child, .months-container .month .day-header:last-child {
+  color: #9b4642;
+}
+
+/*# sourceMappingURL=styles.css.map */
